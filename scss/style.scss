@@ -12,6 +12,9 @@ body{
 }
 
 div{
-    background-color: $black;
-    width: 100vw;
+    background-color: $green--light;
+    width: 100px;
+    &:hover{
+        background-color: $green--dark;
+    }
 }
