@@ -1,0 +1,17 @@
+@import 'scss/config';
+
+*{
+    margin: 0;
+    width: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $color--main;
+    color: $grey--light;
+}
+
+div{
+    background-color: $black;
+    width: 100vw;
+}
